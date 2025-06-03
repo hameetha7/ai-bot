@@ -5,7 +5,6 @@ from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
 from langchain.chains import RetrievalQA
 from langchain_community.llms import HuggingFacePipeline
-from transformers import pipeline
 
 # 1. Sidebar for file upload and instructions
 st.sidebar.title("AI Chatbot")
